@@ -1,0 +1,45 @@
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.sln.ide
+*.suo
+*.vscode/
+.vscode/
+*.db
+*.db-journal
+
+# Visual Studio
+.vs/
+*.sln
+*.userprefs
+*.suo
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]32/
+
+# Publish results
+publish/
+out/
+
+# Visual Studio Code
+.history/
+*.code-workspace
+
+# User secrets
+secrets.json
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/

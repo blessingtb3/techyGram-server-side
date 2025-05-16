@@ -1,0 +1,6 @@
+@techyGram_server_side_HostAddress = http://localhost:5268
+
+GET {{techyGram_server_side_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
