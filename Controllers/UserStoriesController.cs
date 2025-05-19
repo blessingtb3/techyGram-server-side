@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GramAPI.Controllers.v1
 {
     [ApiVersion("1.0")] // specifying the api version
-    [Route("api/v{version:apiVersion}/[controller]")] // route with version
+    [Route("api/v1/[controller]")] // route with version
     [ApiController]
     public class UserStoriesController : ControllerBase
     {
