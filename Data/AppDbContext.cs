@@ -13,5 +13,8 @@ namespace GramAPI.Data
 
         //DbSet for user posts
         public DbSet<UserPost> UserPosts { get; set; }
+
+        //DbSet for users
+        public DbSet<User> Users { get; set; }
     }
 }
